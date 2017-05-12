@@ -1,0 +1,9 @@
+import math
+print math.pi
+print math.e
+print math.ceil(2.99)
+print math.floor(922.44)
+print math.pow(2,3)
+print math.log(2)
+print math.sqrt(4)
+print math.fabs(-4)
