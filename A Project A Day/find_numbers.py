@@ -3,7 +3,7 @@ import re
 text = "aAsmr3idd42bgs7332Dlsf23219eAF 2322 29892 121 432" 
 # regular expression find all the numbers which length greater equal than 1
 nums = re.findall("[0-9]+",text)
-# check the output
+#  check the output
 print nums
 # join them together
 new_str = ''.join(nums)
