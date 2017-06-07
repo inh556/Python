@@ -1,4 +1,4 @@
-# find all the numbers and combine them to a new string
+#  find all the numbers and combine them to a new string
 import re
 text = "aAsmr3idd42bgs7332Dlsf23219eAF 2322 29892 121 432" 
 # regular expression find all the numbers which length greater equal than 1
