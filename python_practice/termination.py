@@ -28,6 +28,5 @@ def execute(prog):
      indx.append(location)
      if location==len(prog)-1:
          return "success"
-
-         
+     
 print(execute(getBASIC()))
