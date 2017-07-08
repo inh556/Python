@@ -13,19 +13,20 @@ def findLine(prog, target):
       if prog[i].startswith(target):
          return i
 # def execute from subtask 3
+# here is a broken solution to get you started
 def execute(prog):
   location = 0
-  counter = 0
+  indx = []
   while True:
-     counter +=1
-     if counter ==4:
-         return "infinite loop"
-         break
      line = prog[location].split()
      T = line[len(line)-1]
     #get T from prog[location] via str.split
      location = findLine(prog, T)
+      
+     if location in indx:
+         return "infinite loop"      
+     indx.append(location)
      if location==len(prog)-1:
          return "success"
-
+         
 print(execute(getBASIC()))
