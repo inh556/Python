@@ -1,4 +1,7 @@
-# delete this comment and enter your code here
+# This program takes two lines of input. 
+# The first line is a "starting time" expressed in a 24-hour clock with leading zeroes
+# like 08:30 or 14:07. The second line is a duration D in minutes
+# Print out what time it will be D minutes after the starting time.
 time = input()
 duration = input()
 hour = int(time[0:2])
