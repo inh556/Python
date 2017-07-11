@@ -1,4 +1,4 @@
-def mode(L):
+def find_mode(L):
    fre = [0]*10
    for i in L:
       fre[i] = fre[i] +1
@@ -7,5 +7,5 @@ def mode(L):
          return i
 
 L =[9, 6, 7, 1, 1, 1, 1]
-mode = mode(L)
+mode = find_mode(L)
 print(mode)
